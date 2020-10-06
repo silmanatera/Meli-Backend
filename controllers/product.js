@@ -15,7 +15,6 @@ export class ProductController {
             })
         }
 
-        console.log(product)
         res.status(200).json({
             ok: true,
             msg: `Resultados encontrad(o)s para "${ id }"`,

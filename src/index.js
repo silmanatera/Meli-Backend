@@ -1,14 +1,14 @@
 // const express = require('express');
 import express from 'express';
 require('dotenv').config();
-// import { apiDetailsApiBO } from '../routes/product';
+const cors = require('cors');
 
 
 // Crea el servidor de express
 const app = express();
 
-
-// rutas - use => es un middleware
+// middlewares
+app.use(cors());
 app.use('/api', require('../routes/product'));
 
 // Escucha peticiones
