@@ -30,3 +30,13 @@ Si en el terminal vemos el siguiente print es porque ya el servidor esta levanta
 
 ### Babel: Para transformar nuestro código JS de última generación a JS que cualquier navegador o versión de Node.js entienda
 
+## Consultas a endpoint remoto
+Para hacer referencia a los endpoints sin hacer la instalacion se puede consutar: <br> <br>
+Detalle de un producto: https://meli-backend-silma.herokuapp.com/api/items/:id, <br> 
+por ejemplo: <br>
+[https://meli-backend-silma.herokuapp.com/api/items/MLA864677112](https://meli-backend-silma.herokuapp.com/api/items/MLA864677112) <br> <br>
+
+Busqueda de un producto: https://meli-backend-silma.herokuapp.com/api/items?q=:query,<br>
+por ejemplo: <br>
+[https://meli-backend-silma.herokuapp.com/api/items?q=pantalon](https://meli-backend-silma.herokuapp.com/api/items?q=pantalon)
+
