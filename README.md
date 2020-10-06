@@ -22,13 +22,13 @@ Si en el terminal vemos el siguiente print es porque ya el servidor esta levanta
 
 ## Dependencias utilizadas
 
-### Express : Como Framework de node.js
+Express : Como Framework de node.js <br>
 
-### Express Validator: Para validar los parametros de entrada.
+Express Validator: Para validar los parametros de entrada. <br>
 
-### Axios: Como cliente http.
-
-### Babel: Para transformar nuestro código JS de última generación a JS que cualquier navegador o versión de Node.js entienda
+Axios: Como cliente http.<br>
+ 
+Babel: Para transformar nuestro código JS de última generación a JS que cualquier navegador o versión de Node.js entienda
 
 ## Consultas a endpoint remoto
 Para hacer referencia a los endpoints sin hacer la instalacion se puede consutar: <br> <br>
