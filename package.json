@@ -7,6 +7,11 @@
         "dev": "nodemon src/index.js --exec babel-node",
         "start": "babel-node src/index.js"
     },
+    "babel": {
+        "presets": [
+            "node8"
+        ]
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
