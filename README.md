@@ -4,8 +4,7 @@ y devolver detalle de un producto.
 
 ## Instalacion
 
-Para instalar el Backend se instalan primero las dependencias:
-
+Instalar las dependencias del Backend:
 ### `npm install`
 
 Una vez instalado, lo puedes ejecutar en modo desarrollo:
@@ -17,14 +16,11 @@ Para produccion se ejecuta:
 Si en el terminal vemos el siguiente print es porque ya el servidor esta levantado:
 ### `Conectado en el puerto 4000`
 
-
 ## Version de node
 ### `v8.17.0`
 
 
-
 ## Dependencias utilizadas
-
 
 ### Express : Como Framework de node.js
 
